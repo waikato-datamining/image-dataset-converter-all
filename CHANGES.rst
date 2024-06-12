@@ -4,6 +4,7 @@ Changelog
 0.0.2 (????-??-??)
 ------------------
 
+- upgraded image-dataset-converter to 0.0.2
 - upgraded image-dataset-converter-imgaug to 0.0.2
 - upgraded image-dataset-converter-redis to 0.0.2
 
