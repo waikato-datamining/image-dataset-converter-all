@@ -31,7 +31,7 @@ setup(
         "image-dataset-converter-imgaug>=0.0.1",
         "image-dataset-converter-imgstats>=0.0.1",
         "image-dataset-converter-imgvis>=0.0.1",
-        "image-dataset-converter-redis>=0.0.1",
+        "image-dataset-converter-redis>=0.0.2",
         "image-dataset-converter-video>=0.0.1",
     ],
     version="0.0.1",
