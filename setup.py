@@ -34,7 +34,7 @@ setup(
         "image-dataset-converter-redis>=0.0.2",
         "image-dataset-converter-video>=0.0.1",
     ],
-    version="0.0.1",
+    version="0.0.2",
     author='Peter Reutemann',
     author_email='fracpete@waikato.ac.nz',
 )
