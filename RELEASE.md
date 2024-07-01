@@ -33,8 +33,8 @@ Steps:
 Docker
 ======
 
-* create copy of [docker/latest](docker/latest) and rename it to just released version
+* create copy of most recent release Docker image, e.g., [docker/0.0.2](docker/0.0.2), and rename it to just released version
 * link to new version from [docker/README.md](docker/README.md)
 * update version in `bash.bashrc`
-* update versions of additional image-dataset-converter libraries if necessary
+* update version of image-dataset-converter-all library to just released one
 * push out to in-house registry and docker hub
