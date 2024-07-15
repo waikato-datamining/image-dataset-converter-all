@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - upgraded image-dataset-converter to 0.0.4
+- upgraded image-dataset-converter-imgaug to 0.0.4
 
 
 0.0.3 (2024-07-02)
