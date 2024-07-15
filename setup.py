@@ -27,7 +27,7 @@ setup(
     ],
     license='MIT License',
     install_requires=[
-        "image-dataset-converter>=0.0.3",
+        "image-dataset-converter>=0.0.4",
         "image-dataset-converter-imgaug>=0.0.3",
         "image-dataset-converter-imgstats>=0.0.1",
         "image-dataset-converter-imgvis>=0.0.2",
