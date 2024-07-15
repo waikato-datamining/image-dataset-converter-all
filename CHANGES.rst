@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.0.4 (????-??-??)
+0.0.4 (2024-07-16)
 ------------------
 
 - upgraded image-dataset-converter to 0.0.4
