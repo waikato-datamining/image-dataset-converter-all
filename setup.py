@@ -13,12 +13,12 @@ def _read(f):
 
 
 setup(
-    name="image-dataset-converter-all",
-    description="Meta-library that combines all image-dataset-converter libraries.",
+    name="image_dataset_converter-all",
+    description="Meta-library that combines all image_dataset_converter libraries.",
     long_description=(
             _read('DESCRIPTION.rst') + b'\n' +
             _read('CHANGES.rst')).decode('utf-8'),
-    url="https://github.com/waikato-datamining/image-dataset-converter-all",
+    url="https://github.com/waikato-datamining/image_dataset_converter-all",
     classifiers=[
         'Development Status :: 4 - Beta',
         'License :: OSI Approved :: MIT License',
@@ -27,13 +27,13 @@ setup(
     ],
     license='MIT License',
     install_requires=[
-        "image-dataset-converter>=0.0.4",
-        "image-dataset-converter-imgaug>=0.0.4",
-        "image-dataset-converter-imgstats>=0.0.1",
-        "image-dataset-converter-imgvis>=0.0.2",
-        "image-dataset-converter-pdf>=0.0.1",
-        "image-dataset-converter-redis>=0.0.2",
-        "image-dataset-converter-video>=0.0.1",
+        "image_dataset_converter>=0.0.4",
+        "image_dataset_converter_imgaug>=0.0.4",
+        "image_dataset_converter_imgstats>=0.0.1",
+        "image_dataset_converter_imgvis>=0.0.2",
+        "image_dataset_converter_pdf>=0.0.1",
+        "image_dataset_converter_redis>=0.0.2",
+        "image_dataset_converter_video>=0.0.1",
     ],
     version="0.0.4",
     author='Peter Reutemann',
