@@ -6,6 +6,7 @@ Changelog
 
 - switched to underscores in project name
 - upgraded image-dataset-converter to 0.0.5
+- upgraded image-dataset-converter-imgaug to 0.0.6
 
 
 0.0.4 (2024-07-16)
