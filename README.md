@@ -7,7 +7,7 @@ Meta-library that combines all [image-dataset-converter](https://github.com/waik
 Via PyPI:
 
 ```bash
-pip install image-dataset-converter-all
+pip install image_dataset_converter_all
 ```
 
 The latest code straight from the repository:
