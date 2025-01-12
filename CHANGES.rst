@@ -1,12 +1,12 @@
 Changelog
 =========
 
-0.0.5 (????-??-??)
+0.0.5 (2025-01-13)
 ------------------
 
 - switched to underscores in project name
-- upgraded image-dataset-converter to 0.0.5
-- upgraded image-dataset-converter-imgaug to 0.0.6
+- upgraded image_dataset_converter to 0.0.5
+- upgraded image_dataset_converter_imgaug to 0.0.6
 
 
 0.0.4 (2024-07-16)
