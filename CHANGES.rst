@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - switched to underscores in project name
+- upgraded image-dataset-converter to 0.0.5
 
 
 0.0.4 (2024-07-16)
