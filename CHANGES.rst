@@ -1,6 +1,12 @@
 Changelog
 =========
 
+0.0.7 (????-??-??)
+------------------
+
+- added image_dataset_converter_labelme as dependency
+
+
 0.0.6 (2025-01-13)
 ------------------
 
