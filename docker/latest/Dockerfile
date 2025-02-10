@@ -27,6 +27,7 @@ RUN pip3 --no-cache-dir install \
         git+https://github.com/waikato-datamining/image-dataset-converter-imgaug.git \
         git+https://github.com/waikato-datamining/image-dataset-converter-imgstats.git \
         git+https://github.com/waikato-datamining/image-dataset-converter-imgvis.git \
+        git+https://github.com/waikato-datamining/image-dataset-converter-labelme.git \
         git+https://github.com/waikato-datamining/image-dataset-converter-paddle.git \
         git+https://github.com/waikato-datamining/image-dataset-converter-pdf.git \
         git+https://github.com/waikato-datamining/image-dataset-converter-redis.git \
