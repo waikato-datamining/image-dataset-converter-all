@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - added image_dataset_converter_labelme as dependency
+- added image_dataset_converter_paddle as dependency
 
 
 0.0.6 (2025-01-13)
