@@ -7,6 +7,7 @@ Changelog
 - added image_dataset_converter_labelme as dependency
 - added image_dataset_converter_paddle as dependency
 - upgraded image_dataset_converter to 0.0.6
+- upgraded image_dataset_converter_imgaug to 0.0.7
 
 
 0.0.6 (2025-01-13)
