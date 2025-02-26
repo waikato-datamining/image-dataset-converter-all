@@ -26,6 +26,7 @@ setup(
         'Topic :: Scientific/Engineering :: Image Processing',
     ],
     license='MIT License',
+    packages=[],
     install_requires=[
         "image_dataset_converter>=0.0.6",
         "image_dataset_converter_imgaug>=0.0.7",
@@ -37,7 +38,7 @@ setup(
         "image_dataset_converter_redis>=0.0.2",
         "image_dataset_converter_video>=0.0.1",
     ],
-    version="0.0.6",
+    version="0.0.7",
     author='Peter Reutemann',
     author_email='fracpete@waikato.ac.nz',
 )
