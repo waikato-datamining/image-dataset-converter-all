@@ -8,6 +8,7 @@ Changelog
 - added image_dataset_converter_paddle as dependency
 - upgraded image_dataset_converter to 0.0.6
 - upgraded image_dataset_converter_imgaug to 0.0.7
+- upgraded image_dataset_converter_imgvis to 0.0.3
 
 
 0.0.6 (2025-01-13)
