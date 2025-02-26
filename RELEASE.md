@@ -8,6 +8,13 @@ Preparation:
 * align `DESCRIPTION.rst` with `README.md`  
 * commit/push all changes
 
+Quick test:
+
+* create virtual environment for testing: `python3 -m venv venvtest`
+* install into virtual environment: `./venvtest/bin/pip install .`
+* test with help screen of conversion tool: `./venvtest/bin/idc-convert --help`
+* remove test environment: `rm -Rf ./venvtest`
+
 Commands for releasing on pypi.org (requires twine >= 1.8.0):
 
 ```
