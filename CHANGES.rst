@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - upgraded image_dataset_converter_video to 0.0.2
+- upgraded image_dataset_converter to 0.0.7
 
 
 0.0.7 (2025-02-26)
