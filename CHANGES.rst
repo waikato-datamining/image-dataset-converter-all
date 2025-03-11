@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.0.8 (????-??-??)
+0.0.8 (2025-03-12)
 ------------------
 
 - upgraded image_dataset_converter_video to 0.0.2
