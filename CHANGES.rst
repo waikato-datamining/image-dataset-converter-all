@@ -6,6 +6,7 @@ Changelog
 
 - upgraded image_dataset_converter to 0.0.8
 - upgraded image_dataset_converter_imgaug to 0.0.8
+- upgraded image_dataset_converter_imgstats to 0.0.2
 - upgraded image_dataset_converter_imgvis to 0.0.4
 - upgraded image_dataset_converter_labelme to 0.0.2
 - upgraded image_dataset_converter_paddle to 0.0.2
