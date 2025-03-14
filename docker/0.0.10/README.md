@@ -1,9 +1,9 @@
-# image-dataset-converter 0.0.9
+# image-dataset-converter 0.0.10
 
 ## Build
 
 ```bash
-docker build -t image-dataset-converter:0.0.9 .
+docker build -t image-dataset-converter:0.0.10 .
 ```
 
 ## Local
@@ -20,10 +20,10 @@ docker build -t image-dataset-converter:0.0.9 .
 
   ```bash
   docker tag \
-      image-dataset-converter:0.0.9 \
-      public-push.aml-repo.cms.waikato.ac.nz:443/tools/image-dataset-converter:0.0.9
+      image-dataset-converter:0.0.10 \
+      public-push.aml-repo.cms.waikato.ac.nz:443/tools/image-dataset-converter:0.0.10
       
-  docker push public-push.aml-repo.cms.waikato.ac.nz:443/tools/image-dataset-converter:0.0.9
+  docker push public-push.aml-repo.cms.waikato.ac.nz:443/tools/image-dataset-converter:0.0.10
   ```
 
 ### Use
@@ -39,7 +39,7 @@ docker build -t image-dataset-converter:0.0.9 .
   ```bash
   docker run --rm -u $(id -u):$(id -g) \
       -v /local/dir:/workspace \
-      -it public.aml-repo.cms.waikato.ac.nz:443/tools/image-dataset-converter:0.0.9
+      -it public.aml-repo.cms.waikato.ac.nz:443/tools/image-dataset-converter:0.0.10
   ```
 
 **NB:** Replace `/local/dir` with a local directory that you want to map inside the container. 
@@ -60,10 +60,10 @@ For the current directory, simply use `pwd`.
 
   ```bash
   docker tag \
-      image-dataset-converter:0.0.9 \
-      waikatodatamining/image-dataset-converter:0.0.9
+      image-dataset-converter:0.0.10 \
+      waikatodatamining/image-dataset-converter:0.0.10
   
-  docker push waikatodatamining/image-dataset-converter:0.0.9
+  docker push waikatodatamining/image-dataset-converter:0.0.10
   ```
 
 ### Use
@@ -71,7 +71,7 @@ For the current directory, simply use `pwd`.
 ```bash
 docker run --rm -u $(id -u):$(id -g) \
     -v /local/dir:/workspace \
-    -it waikatodatamining/image-dataset-converter:0.0.9
+    -it waikatodatamining/image-dataset-converter:0.0.10
 ```
 
 **NB:** 
