@@ -26,15 +26,7 @@ RUN apt-get update && \
 
 RUN python3 -m venv /opt/image-dataset-converter && \
     /opt/image-dataset-converter/bin/pip --no-cache-dir install \
-        git+https://github.com/waikato-datamining/image-dataset-converter.git \
-        git+https://github.com/waikato-datamining/image-dataset-converter-imgaug.git \
-        git+https://github.com/waikato-datamining/image-dataset-converter-imgstats.git \
-        git+https://github.com/waikato-datamining/image-dataset-converter-imgvis.git \
-        git+https://github.com/waikato-datamining/image-dataset-converter-labelme.git \
-        git+https://github.com/waikato-datamining/image-dataset-converter-paddle.git \
-        git+https://github.com/waikato-datamining/image-dataset-converter-pdf.git \
-        git+https://github.com/waikato-datamining/image-dataset-converter-redis.git \
-        git+https://github.com/waikato-datamining/image-dataset-converter-video.git
+        image_dataset_converter_all==0.0.10
 
 ENV PATH=/opt/image-dataset-converter/bin:$PATH
 COPY bash.bashrc /etc/bash.bashrc
