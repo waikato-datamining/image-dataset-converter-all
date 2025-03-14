@@ -7,6 +7,7 @@ Changelog
 - upgraded image_dataset_converter to 0.0.8
 - upgraded image_dataset_converter_imgaug to 0.0.8
 - upgraded image_dataset_converter_imgvis to 0.0.4
+- upgraded image_dataset_converter_labelme to 0.0.2
 
 
 0.0.8 (2025-03-12)
