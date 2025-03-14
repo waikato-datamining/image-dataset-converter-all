@@ -34,7 +34,7 @@ setup(
         "image_dataset_converter_imgvis>=0.0.4",
         "image_dataset_converter_labelme>=0.0.2",
         "image_dataset_converter_paddle>=0.0.2",
-        "image_dataset_converter_pdf>=0.0.1",
+        "image_dataset_converter_pdf>=0.0.2",
         "image_dataset_converter_redis>=0.0.2",
         "image_dataset_converter_video>=0.0.2",
     ],
