@@ -6,6 +6,7 @@ Changelog
 
 - upgraded image_dataset_converter to 0.0.10
 - upgraded image_dataset_converter_imgaug to 0.0.9
+- upgraded image_dataset_converter_labelme to 0.0.3
 
 
 0.0.10 (2025-03-14)
