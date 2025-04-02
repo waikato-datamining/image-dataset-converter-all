@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.0.11 (????-??-??)
+0.0.11 (2025-04-03)
 -------------------
 
 - upgraded image_dataset_converter to 0.0.11
