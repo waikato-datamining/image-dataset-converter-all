@@ -79,3 +79,11 @@ docker run --rm -u $(id -u):$(id -g) \
 * Replace `/local/dir` with a local directory that you want to map inside the container. 
 * For the current directory, simply use `pwd`.
 * You need to start the docker container with the `--net=host` option if you are using the host's Redis server.
+
+### Requirements
+
+```bash
+docker run --rm --pull=always \
+  -t public.aml-repo.cms.waikato.ac.nz:443/tools/image-dataset-converter:0.0.11 \
+  pip freeze > requirements.txt
+```
