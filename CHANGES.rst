@@ -10,6 +10,7 @@ Changelog
 - upgraded image_dataset_converter_paddle to 0.0.3
 - upgraded image_dataset_converter_pdf to 0.0.3
 - upgraded image_dataset_converter_redis to 0.0.3
+- upgraded image_dataset_converter_video to 0.0.4
 
 
 0.0.10 (2025-03-14)
