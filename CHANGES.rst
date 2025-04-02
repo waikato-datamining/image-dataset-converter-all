@@ -4,7 +4,7 @@ Changelog
 0.0.11 (????-??-??)
 -------------------
 
-- upgraded image_dataset_converter to 0.0.10
+- upgraded image_dataset_converter to 0.0.11
 - upgraded image_dataset_converter_imgaug to 0.0.9
 - upgraded image_dataset_converter_labelme to 0.0.3
 - upgraded image_dataset_converter_paddle to 0.0.3
