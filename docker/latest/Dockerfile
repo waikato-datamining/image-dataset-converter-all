@@ -38,5 +38,6 @@ RUN python3 -m venv /opt/image-dataset-converter && \
         git+https://github.com/waikato-datamining/image-dataset-converter-video.git
 
 ENV PATH=/opt/image-dataset-converter/bin:$PATH
+ENV NUMBA_CACHE_DIR=/tmp
 COPY bash.bashrc /etc/bash.bashrc
 WORKDIR /workspace
