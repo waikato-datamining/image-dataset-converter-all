@@ -30,5 +30,6 @@ RUN python3 -m venv /opt/image-dataset-converter && \
 
 ENV PATH=/opt/image-dataset-converter/bin:$PATH
 ENV NUMBA_CACHE_DIR=/tmp
+ENV MPLCONFIGDIR=/tmp
 COPY bash.bashrc /etc/bash.bashrc
 WORKDIR /workspace
