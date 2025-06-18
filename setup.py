@@ -18,7 +18,7 @@ setup(
     long_description=(
             _read('DESCRIPTION.rst') + b'\n' +
             _read('CHANGES.rst')).decode('utf-8'),
-    url="https://github.com/waikato-datamining/image_dataset_converter-all",
+    url="https://github.com/waikato-datamining/image-dataset-converter-all",
     classifiers=[
         'Development Status :: 4 - Beta',
         'License :: OSI Approved :: MIT License',
