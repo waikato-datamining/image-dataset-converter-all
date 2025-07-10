@@ -8,6 +8,7 @@ Changelog
 - upgraded image_dataset_converter_imgaug to 0.0.10
 - upgraded image_dataset_converter_imgvis to 0.0.5
 - upgraded image_dataset_converter_paddle to 0.0.4
+- added image_dataset_converter_plantcv 0.0.1
 
 
 0.0.11 (2025-04-03)
