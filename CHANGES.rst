@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.0.12 (????-??-??)
+0.0.12 (2025-07-11)
 -------------------
 
 - upgraded image_dataset_converter to 0.0.12: https://github.com/waikato-datamining/image-dataset-converter/releases/tag/v0.0.12
