@@ -16,6 +16,12 @@ The latest code straight from the repository:
 pip install git+https://github.com/waikato-datamining/image-dataset-converter-all.git
 ```
 
+Via script (using code from repos or local dirs):
+
+``` bash
+./idc-venv [options, use -h to see help screen]
+```
+
 
 ## Docker
 
