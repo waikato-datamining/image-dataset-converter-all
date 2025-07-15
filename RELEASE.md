@@ -6,6 +6,7 @@ Preparation:
 * increment version in `setup.py`
 * add new changelog section in `CHANGES.rst`
 * align `DESCRIPTION.rst` with `README.md`  
+* check whether `idc-venv` lists all the modules
 * commit/push all changes
 
 Quick test:
