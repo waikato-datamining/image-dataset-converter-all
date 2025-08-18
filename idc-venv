@@ -101,6 +101,14 @@ if [ "$local_repos" = "yes" ]
 then
   echo
   echo "Installing/updating from local repos..."
+  if [ -d "$local_base_dir/seppl" ]
+  then
+    $venv_dir/bin/pip install -U $local_base_dir/seppl
+  fi
+  if [ -d "$local_base_dir/kasperl" ]
+  then
+    $venv_dir/bin/pip install -U $local_base_dir/kasperl
+  fi
   $venv_dir/bin/pip install -U \
       $local_base_dir/image-dataset-converter \
       $local_base_dir/image-dataset-converter-imgaug \
