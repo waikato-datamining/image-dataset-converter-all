@@ -26,6 +26,8 @@ RUN apt-get update && \
 
 RUN python3 -m venv /opt/image-dataset-converter && \
     /opt/image-dataset-converter/bin/pip --no-cache-dir install \
+        git+https://github.com/waikato-datamining/seppl.git \
+        git+https://github.com/waikato-datamining/kasperl.git \
         git+https://github.com/waikato-datamining/image-dataset-converter.git \
         git+https://github.com/waikato-datamining/image-dataset-converter-imgaug.git \
         git+https://github.com/waikato-datamining/image-dataset-converter-imgstats.git \
