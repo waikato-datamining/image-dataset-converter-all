@@ -117,6 +117,14 @@ then
     $venv_dir/bin/pip install -U \
         git+https://github.com/waikato-datamining/kasperl.git
   fi
+  if [ -d "$local_base_dir/kasperl-plots" ]
+  then
+    $venv_dir/bin/pip install -U $local_base_dir/kasperl-plots
+  else
+    echo "kasperl-plots not found locally, installing from github..."
+    $venv_dir/bin/pip install -U \
+        git+https://github.com/waikato-datamining/kasperl-plots.git
+  fi
   if [ -d "$local_base_dir/kasperl-redis" ]
   then
     $venv_dir/bin/pip install -U $local_base_dir/kasperl-redis
