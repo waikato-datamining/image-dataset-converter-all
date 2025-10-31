@@ -157,6 +157,7 @@ else
   $venv_dir/bin/pip install -U $ignored_installed_flag \
       git+https://github.com/waikato-datamining/seppl.git \
       git+https://github.com/waikato-datamining/kasperl.git \
+      git+https://github.com/waikato-datamining/kasperl-plots.git \
       git+https://github.com/waikato-datamining/kasperl-redis.git \
       git+https://github.com/waikato-datamining/image-dataset-converter.git \
       git+https://github.com/waikato-datamining/image-dataset-converter-imgaug.git \
