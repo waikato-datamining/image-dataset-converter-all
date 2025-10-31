@@ -5,6 +5,7 @@ Changelog
 -------------------
 
 - upgraded image_dataset_converter to 0.0.13: https://github.com/waikato-datamining/image-dataset-converter/releases/tag/v0.0.13
+- added `kasperl_plots` as dependency
 
 
 0.0.12 (2025-07-11)

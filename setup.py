@@ -28,6 +28,7 @@ setup(
     license='MIT License',
     packages=[],
     install_requires=[
+        "kasperl_plots",
         "image_dataset_converter>=0.0.13",
         "image_dataset_converter_imgaug>=0.0.10",
         "image_dataset_converter_imgstats>=0.0.2",
