@@ -10,6 +10,7 @@ Changelog
 - upgraded image_dataset_converter_imgstats to 0.1.0: https://github.com/waikato-datamining/image-dataset-converter-imgstats/releases/tag/v0.1.0
 - upgraded image_dataset_converter_imgvis to 0.1.0: https://github.com/waikato-datamining/image-dataset-converter-imgvis/releases/tag/v0.1.0
 - upgraded image_dataset_converter_labelme to 0.1.0: https://github.com/waikato-datamining/image-dataset-converter-labelme/releases/tag/v0.1.0
+- upgraded image_dataset_converter_paddle to 0.1.0: https://github.com/waikato-datamining/image-dataset-converter-paddle/releases/tag/v0.1.0
 
 
 0.0.12 (2025-07-11)
