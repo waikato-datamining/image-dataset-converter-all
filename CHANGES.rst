@@ -7,6 +7,7 @@ Changelog
 - upgraded image_dataset_converter to 0.1.0: https://github.com/waikato-datamining/image-dataset-converter/releases/tag/v0.1.0
 - added `kasperl_plots` as dependency: https://github.com/waikato-datamining/kasperl-plots/releases/tag/v0.0.1
 - upgraded image_dataset_converter_imgaug to 0.1.0: https://github.com/waikato-datamining/image-dataset-converter-imgaug/releases/tag/v0.1.0
+- upgraded image_dataset_converter_imgstats to 0.1.0: https://github.com/waikato-datamining/image-dataset-converter-imgstats/releases/tag/v0.1.0
 
 
 0.0.12 (2025-07-11)

@@ -31,7 +31,7 @@ setup(
         "kasperl_plots>=0.0.1",
         "image_dataset_converter>=0.1.0",
         "image_dataset_converter_imgaug>=0.1.0",
-        "image_dataset_converter_imgstats>=0.0.2",
+        "image_dataset_converter_imgstats>=0.1.0",
         "image_dataset_converter_imgvis>=0.0.5",
         "image_dataset_converter_labelme>=0.0.3",
         "image_dataset_converter_paddle>=0.0.4",
