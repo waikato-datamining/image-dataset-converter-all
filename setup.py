@@ -38,7 +38,7 @@ setup(
         "image_dataset_converter_pdf>=0.1.0",
         "image_dataset_converter_plantcv>=0.1.0",
         "image_dataset_converter_redis>=0.1.0",
-        "image_dataset_converter_video>=0.0.5",
+        "image_dataset_converter_video>=0.1.0",
     ],
     version="0.0.12",
     author='Peter Reutemann',

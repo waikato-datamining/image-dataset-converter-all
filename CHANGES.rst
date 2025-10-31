@@ -14,6 +14,7 @@ Changelog
 - upgraded image_dataset_converter_pdf to 0.1.0: https://github.com/waikato-datamining/image-dataset-converter-pdf/releases/tag/v0.1.0
 - upgraded image_dataset_converter_plantcv to 0.1.0: https://github.com/waikato-datamining/image-dataset-converter-plantcv/releases/tag/v0.1.0
 - upgraded image_dataset_converter_redis to 0.1.0: https://github.com/waikato-datamining/image-dataset-converter-redis/releases/tag/v0.1.0
+- upgraded image_dataset_converter_video to 0.1.0: https://github.com/waikato-datamining/image-dataset-converter-video/releases/tag/v0.1.0
 
 
 0.0.12 (2025-07-11)
