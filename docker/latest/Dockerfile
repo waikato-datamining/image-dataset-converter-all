@@ -35,6 +35,7 @@ RUN python3 -m venv /opt/image-dataset-converter && \
         git+https://github.com/waikato-datamining/image-dataset-converter-imgstats.git \
         git+https://github.com/waikato-datamining/image-dataset-converter-imgvis.git \
         git+https://github.com/waikato-datamining/image-dataset-converter-labelme.git \
+        git+https://github.com/waikato-datamining/image-dataset-converter-metrics.git \
         git+https://github.com/waikato-datamining/image-dataset-converter-paddle.git \
         git+https://github.com/waikato-datamining/image-dataset-converter-pdf.git \
         git+https://github.com/waikato-datamining/image-dataset-converter-plantcv.git \
