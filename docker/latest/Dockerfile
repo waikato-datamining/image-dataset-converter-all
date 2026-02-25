@@ -24,8 +24,10 @@ RUN apt-get update && \
        libpq-dev && \
     rm -rf /var/lib/apt/lists/*
 
-RUN python3 -m venv /opt/image-dataset-converter && \
-    /opt/image-dataset-converter/bin/pip --no-cache-dir install \
+RUN python3 -m venv /opt/image-dataset-converter
+RUN /opt/image-dataset-converter/bin/pip --no-cache-dir install \
+      torch==2.8.0 torchvision --index-url https://download.pytorch.org/whl/cpu
+RUN /opt/image-dataset-converter/bin/pip --no-cache-dir install \
         git+https://github.com/waikato-datamining/seppl.git \
         git+https://github.com/waikato-datamining/kasperl.git \
         git+https://github.com/waikato-datamining/kasperl-plots.git \
