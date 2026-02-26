@@ -140,12 +140,15 @@ then
     $venv_dir/bin/pip install -U \
         git+https://github.com/waikato-datamining/kasperl-redis.git
   fi
+  $venv_dir/bin/pip --no-cache-dir install \
+      torch==2.8.0 torchvision --index-url https://download.pytorch.org/whl/cpu
   $venv_dir/bin/pip install -U $ignored_installed_flag \
       $local_base_dir/image-dataset-converter \
       $local_base_dir/image-dataset-converter-imgaug \
       $local_base_dir/image-dataset-converter-imgstats \
       $local_base_dir/image-dataset-converter-imgvis \
       $local_base_dir/image-dataset-converter-labelme \
+      $local_base_dir/image-dataset-converter-metrics \
       $local_base_dir/image-dataset-converter-paddle \
       $local_base_dir/image-dataset-converter-pdf \
       $local_base_dir/image-dataset-converter-plantcv \
@@ -164,6 +167,7 @@ else
       git+https://github.com/waikato-datamining/image-dataset-converter-imgstats.git \
       git+https://github.com/waikato-datamining/image-dataset-converter-imgvis.git \
       git+https://github.com/waikato-datamining/image-dataset-converter-labelme.git \
+      git+https://github.com/waikato-datamining/image-dataset-converter-metrics.git \
       git+https://github.com/waikato-datamining/image-dataset-converter-paddle.git \
       git+https://github.com/waikato-datamining/image-dataset-converter-pdf.git \
       git+https://github.com/waikato-datamining/image-dataset-converter-plantcv.git \
